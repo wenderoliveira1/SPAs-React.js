@@ -16,7 +16,7 @@ const newCycleFormValidationSchema = zod.object({
 
 
 
-type NewCycleFormData = zod.infer<typeof newCycleFormValidationSchema>
+type NewCycleFormData =  zod.infer<typeof newCycleFormValidationSchema>
 
 interface Cycle {
   id: string
